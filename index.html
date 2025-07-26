@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Students</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Список студентів</h1>
+    <button class="btn" id="get-students-btn">Отримати студентів</button>
+
+    <table id="students-table">
+      <thead>
+        <tr class="student-row">
+          <th class="id">ID</th>
+          <th class="name">Ім'я</th>
+          <th class="age">Вік</th>
+          <th class="course">Курс</th>
+          <th class="skills">Навички</th>
+          <th class="email">Email</th>
+          <th class="status">Статус</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        <!-- Динамічно заповнено -->
+      </tbody>
+    </table>
+
+    <h2>Додати нового студента</h2>
+    <form id="add-student-form" addStudentForm>
+      <label>Ім'я: <input type="text" id="name" required surname></label>
+      <label>Вік: <input type="number" id="age" required age></label>
+      <label>Курс: <input type="text" id="course" required course></label>
+      <label>Навички (через кому): <input type="text" id="skills" required skills></label>
+      <label>Email: <input type="email" id="email" required email></label>
+      <label>Записаний: <input type="checkbox" id="isEnrolled" record></label>
+    </form>
+    <div class="btn-box">
+        <button type="submit" addStudent>Додати</button>
+        <button type="submit" changeStudent>Змінити</button>
+        <button type="submit" deleteStudent>Видалити</button>
+    </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "name": "Varvara",
+      "age": "17",
+      "course": "3",
+      "skills": "nothing",
+      "email": "varvara@gmail.com",
+      "isEnrolled": "on",
+      "id": "2"
+    },
+    {
+      "name": "PABLO",
+      "age": "5",
+      "course": "3",
+      "skills": "HTML",
+      "email": "pablo@gmail.com",
+      "isEnrolled": "on",
+      "id": "3"
+    },
+    {
+      "name": "Anna",
+      "age": "14",
+      "course": "2",
+      "skills": "soft skills",
+      "email": "anna@gmail.com",
+      "isEnrolled": "on",
+      "id": "4"
+    },
+    {
+      "id": "c6f4",
+      "name": "PABLO",
+      "age": "5",
+      "course": "3",
+      "skills": "HTML",
+      "email": "pablo@gmail.com",
+      "record": "on"
+    }
+  ]
+}
