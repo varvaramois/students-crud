@@ -1,40 +1,49 @@
 {
   "students": [
     {
-      "name": "Varvara",
-      "age": "17",
-      "course": "3",
-      "skills": "nothing",
-      "email": "varvara@gmail.com",
-      "isEnrolled": "on",
-      "id": "2"
-    },
-    {
-      "name": "PABLO",
-      "age": "5",
-      "course": "3",
+      "id": "1",
+      "name": "Pablo",
+      "age": 5,
+      "course": "5",
       "skills": "HTML",
       "email": "pablo@gmail.com",
-      "isEnrolled": "on",
-      "id": "3"
+      "isEnrolled": true
     },
     {
+      "id": "2",
       "name": "Anna",
-      "age": "14",
+      "age": 14,
+      "course": "4",
+      "skills": "css, scss",
+      "email": "anna@gmail.com",
+      "isEnrolled": true
+    },
+    {
+      "id": "3",
+      "name": "Max",
+      "age": 15,
+      "course": "1",
+      "skills": "python",
+      "email": "max@gmail.com",
+      "isEnrolled": false
+    },
+    {
+      "id": "4",
+      "name": "Anton",
+      "age": 12,
       "course": "2",
       "skills": "soft skills",
-      "email": "anna@gmail.com",
-      "isEnrolled": "on",
-      "id": "4"
+      "email": "anton@gmail.com",
+      "isEnrolled": true
     },
     {
-      "id": "c6f4",
-      "name": "PABLO",
-      "age": "5",
+      "id": "5",
+      "name": "Natalia",
+      "age": 16,
       "course": "3",
-      "skills": "HTML",
-      "email": "pablo@gmail.com",
-      "record": "on"
+      "skills": "-",
+      "email": "natalia@gmail.com",
+      "isEnrolled": false
     }
   ]
 }
